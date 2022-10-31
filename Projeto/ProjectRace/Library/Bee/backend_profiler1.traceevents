@@ -1,0 +1,506 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665067800257667, "dur":1234, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800258907, "dur":73, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665067800258992, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665067800259016, "dur":998, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665067800260048, "dur":751, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800260799, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800975954, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976039, "dur":53, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976092, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976099, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976111, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976114, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976121, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976124, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976132, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976147, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800976151, "dur":1853, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665067800260212, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800260821, "dur":3975, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800264812, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665067800264814, "dur":22027, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800286852, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665067800286857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800287074, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665067800287781, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1665067800287891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800287897, "dur":35850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1665067800323803, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665067800323914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800324200, "dur":71984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665067800396236, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665067800396374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800396381, "dur":40402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665067800436840, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800436943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800436996, "dur":198585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800635627, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800635679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800635685, "dur":43737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800679484, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800679547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800679557, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800681227, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800681266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800681270, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800682586, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800682639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800682720, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800684143, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800684208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800684216, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800685447, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800685588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800685599, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800686670, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800686722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800686728, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800689083, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800689176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800689185, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800690608, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800690666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800690672, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800692100, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800692175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800692190, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800693671, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800693743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800693755, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800697394, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800697466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800697478, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800698891, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800698951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800698961, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800700564, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800700621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800700630, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800702019, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800702085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800702097, "dur":21876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800724050, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800724127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800724137, "dur":187647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800911848, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800912529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800912536, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800915587, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800915974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800915986, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800917275, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800917533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800917544, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800918776, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800918941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800918947, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800922480, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800922658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800922666, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800923732, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800923787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800923795, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800927134, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800927194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800927201, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800928883, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800928986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800928997, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800930972, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800931044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800931053, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800932973, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800933043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800933055, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800934937, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800935012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800935021, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800936394, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800936463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800936470, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800938006, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800938194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800938225, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800939237, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800939485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800939498, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665067800940804, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1665067800940920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800941041, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1665067800942582, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665067800942664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800942671, "dur":17243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665067800959981, "dur":5143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665067800965132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665067800965147, "dur":10362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665067800975562, "dur":380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800260271, "dur":559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800260830, "dur":3998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800264829, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665067800265044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800266522, "dur":26689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665067800293255, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800293356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800293363, "dur":44767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800338181, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800338281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800338334, "dur":18820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800357206, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800357308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800357315, "dur":19627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800376995, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665067800377099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800377381, "dur":16862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665067800394286, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800394386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800394393, "dur":30901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665067800425346, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800425452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800425613, "dur":84206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800509875, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665067800509921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800509926, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665067800511103, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665067800511210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800511396, "dur":130463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665067800641903, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800641947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800641954, "dur":37577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800679584, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800679663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800679741, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800681303, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800681362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800681368, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800682555, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800682617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800682626, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800684150, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800684208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800684216, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800685626, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800685671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800685739, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800688247, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800688311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800688322, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800689780, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800689844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800689920, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800691109, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800691177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800691188, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800692758, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800692887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800692900, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800694221, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800694280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800694286, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800697814, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800697875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800697882, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800700475, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800700533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800700545, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800702048, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800702112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800702119, "dur":22037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800724198, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800724363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800724368, "dur":187650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800912088, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800912149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800912160, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800913655, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800913988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800913997, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800915844, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800916030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800916036, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800917634, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800917811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800917820, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800918988, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800919162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800919170, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800921209, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800921393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800921404, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800922729, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800922915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800922924, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800924340, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800924416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800924424, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800926748, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800926810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800926821, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800928945, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800929007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800929013, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800932334, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800932391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800932401, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800935881, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800935966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800935978, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800937346, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800937564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800937575, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800938626, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800938693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800938703, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665067800940223, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800940547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800941087, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800942367, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665067800942446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800942457, "dur":17152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665067800959691, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665067800959754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800959765, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665067800961005, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800961248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800961260, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800962645, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800962950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800962963, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665067800964288, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800964376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800964383, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800966929, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665067800966996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800967006, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665067800968933, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800969000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800969010, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800970581, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1665067800970635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800970645, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1665067800971765, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800971817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800971826, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800973068, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800973130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800973167, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665067800974457, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1665067800974518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665067800974528, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1665067800975426, "dur":530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800260325, "dur":517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800260842, "dur":3964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800264812, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1665067800265130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800266485, "dur":44709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1665067800311236, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665067800311337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800311345, "dur":38161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665067800349553, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665067800349661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800349668, "dur":41593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665067800391316, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665067800391410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800391417, "dur":12633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665067800404105, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665067800404210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800404216, "dur":77419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665067800481694, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665067800481796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800481803, "dur":91789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665067800573645, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800573699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800573868, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800574826, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800574866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800574915, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800576046, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800576092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800576100, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800577234, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800577275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800577281, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800578332, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800578370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800578376, "dur":10529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800588947, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800588987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800588993, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800589898, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800589943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800589949, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800590757, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800590801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800590807, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800591849, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800591913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800591919, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800592827, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800592887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800592893, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800593923, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800593963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800593969, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800594904, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800594945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800594951, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800595887, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800595927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800595932, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800596884, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800596970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800596978, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800598042, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800598081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800598087, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800598969, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800599007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800599013, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800599932, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800599973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800599979, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800600907, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800600950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800600956, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800601818, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800601869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800601874, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800602715, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800602755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800602761, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800603626, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800603709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800603715, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800605379, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800605869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800605880, "dur":73287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800679239, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800679303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800679312, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800680899, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800680974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800680986, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800682184, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800682256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800682265, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800683554, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800683602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800683610, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800684936, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800685002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800685013, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800686184, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800686246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800686259, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800688603, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800688646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800688651, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800690078, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800690175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800690184, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800691532, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800691595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800691604, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800692870, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800692929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800692937, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800694138, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800694195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800694204, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800697719, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800697784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800697869, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800699389, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800699454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800699467, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800700762, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800700828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800700832, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800702102, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800702156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800702165, "dur":21939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800724166, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800724251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800724257, "dur":187434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800911782, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800912321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800912331, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800913981, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800914973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800914984, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800916701, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800916901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800916913, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800918377, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800918737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800918748, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800921152, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800921405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800921411, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800922729, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800922791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800922800, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800924173, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800924231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800924241, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800925412, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800925498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800925508, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800927330, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800927415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800927425, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800928975, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800929034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800929043, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800930980, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800931036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800931045, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800934867, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800934944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800934955, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800937099, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800937158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800937166, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800938300, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800938358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800938364, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665067800942583, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1665067800942677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800942684, "dur":17200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1665067800959946, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665067800960005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800960013, "dur":11920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665067800971997, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1665067800972060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800972067, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1665067800973143, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1665067800973203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800973209, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1665067800974895, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1665067800975069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665067800975076, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1665067800975924, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1665067800975925, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800260386, "dur":470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800260857, "dur":3972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800264830, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665067800265031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800266242, "dur":100057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665067800366349, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665067800366461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800366469, "dur":14340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665067800380867, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665067800380972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800381042, "dur":25688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665067800406855, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1665067800406958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800406965, "dur":42625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1665067800449647, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665067800449742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800449747, "dur":524186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665067800974030, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665067800974121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665067800974132, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pichau/Downloads/ProjectRaceDemo/ProjectRace_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665067800975298, "dur":643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665067800979437, "dur":1577, "ph":"X", "name": "ProfilerWriteOutput" }
+,

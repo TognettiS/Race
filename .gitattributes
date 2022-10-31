@@ -1,0 +1,2 @@
+Executavel/ filter=lfs diff=lfs merge=lfs -text
+Projeto/ filter=lfs diff=lfs merge=lfs -text
